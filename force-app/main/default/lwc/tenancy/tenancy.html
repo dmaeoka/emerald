@@ -1,0 +1,12 @@
+<template>
+	<h2>{pageTitle}</h2>
+	<p>{status}</p>
+
+	<template if:true={tenancies.length}>
+		<template for:each={tenancies} for:item="t">
+			<p class="slds-text-body_regular" key={t.id}>address: {t.address}</p>
+			<p class="slds-text-body_regular" key={t.id}>startDate: {t.startDate}</p>
+		</template>
+	</template>
+
+</template>

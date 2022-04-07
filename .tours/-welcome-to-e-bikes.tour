@@ -1,11 +1,11 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "👋 Welcome to E-Bikes",
+  "title": "👋 Welcome to Emerald",
   "steps": [
     {
       "title": "Property Explorer - Wire Decorator",
       "file": "force-app/main/default/lwc/productTileList/productTileList.js",
-      "description": "The Product Explorer lets you browse thought E-Bikes products by displaying cards that contain the product and it's price. It gets these by using an @wire to query call the `getProducts` Apex method and providing the filter values that have been set.",
+      "description": "The Product Explorer lets you browse thought Emerald products by displaying cards that contain the product and it's price. It gets these by using an @wire to query call the `getProducts` Apex method and providing the filter values that have been set.",
       "line": 48
     },
     {

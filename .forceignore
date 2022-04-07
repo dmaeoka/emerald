@@ -25,43 +25,43 @@ package.xml
 
 # Default generated Experience Cloud metadata
 **/aura/createAndRefreshCase
-**/aura/forgotPassword
-**/aura/loginForm
-**/aura/selfRegister
-**/aura/setExpId
-**/aura/setStartUrl
-**/classes/ChangePasswordController.cls
-**/classes/ChangePasswordController.cls-meta.xml
-**/classes/ChangePasswordControllerTest.cls
-**/classes/ChangePasswordControllerTest.cls-meta.xml
-**/classes/CommunitiesLoginController.cls
-**/classes/CommunitiesLoginController.cls-meta.xml
-**/classes/CommunitiesLoginControllerTest.cls
-**/classes/CommunitiesLoginControllerTest.cls-meta.xml
-**/classes/CommunitiesSelfRegConfirmController.cls
-**/classes/CommunitiesSelfRegConfirmController.cls-meta.xml
-**/classes/CommunitiesSelfRegConfirmControllerTest.cls
-**/classes/CommunitiesSelfRegConfirmControllerTest.cls-meta.xml
-**/classes/CommunitiesSelfRegController.cls
-**/classes/CommunitiesSelfRegController.cls-meta.xml
-**/classes/CommunitiesSelfRegControllerTest.cls
-**/classes/CommunitiesSelfRegControllerTest.cls-meta.xml
-**/classes/ForgotPasswordController.cls
-**/classes/ForgotPasswordController.cls-meta.xml
-**/classes/ForgotPasswordControllerTest.cls
-**/classes/ForgotPasswordControllerTest.cls-meta.xml
-**/classes/LightningForgotPasswordController.cls
-**/classes/LightningForgotPasswordController.cls-meta.xml
-**/classes/LightningForgotPasswordControllerTest.cls
-**/classes/LightningForgotPasswordControllerTest.cls-meta.xml
-**/classes/LightningLoginFormController.cls
-**/classes/LightningLoginFormController.cls-meta.xml
-**/classes/LightningLoginFormControllerTest.cls
-**/classes/LightningLoginFormControllerTest.cls-meta.xml
-**/classes/LightningSelfRegisterController.cls
-**/classes/LightningSelfRegisterController.cls-meta.xml
-**/classes/LightningSelfRegisterControllerTest.cls
-**/classes/LightningSelfRegisterControllerTest.cls-meta.xml
+# **/aura/forgotPassword
+# **/aura/loginForm
+# **/aura/selfRegister
+# **/aura/setExpId
+# **/aura/setStartUrl
+# **/classes/ChangePasswordController.cls
+# **/classes/ChangePasswordController.cls-meta.xml
+# **/classes/ChangePasswordControllerTest.cls
+# **/classes/ChangePasswordControllerTest.cls-meta.xml
+# **/classes/CommunitiesLoginController.cls
+# **/classes/CommunitiesLoginController.cls-meta.xml
+# **/classes/CommunitiesLoginControllerTest.cls
+# **/classes/CommunitiesLoginControllerTest.cls-meta.xml
+# **/classes/CommunitiesSelfRegConfirmController.cls
+# **/classes/CommunitiesSelfRegConfirmController.cls-meta.xml
+# **/classes/CommunitiesSelfRegConfirmControllerTest.cls
+# **/classes/CommunitiesSelfRegConfirmControllerTest.cls-meta.xml
+# **/classes/CommunitiesSelfRegController.cls
+# **/classes/CommunitiesSelfRegController.cls-meta.xml
+# **/classes/CommunitiesSelfRegControllerTest.cls
+# **/classes/CommunitiesSelfRegControllerTest.cls-meta.xml
+# **/classes/ForgotPasswordController.cls
+# **/classes/ForgotPasswordController.cls-meta.xml
+# **/classes/ForgotPasswordControllerTest.cls
+# **/classes/ForgotPasswordControllerTest.cls-meta.xml
+# **/classes/LightningForgotPasswordController.cls
+# **/classes/LightningForgotPasswordController.cls-meta.xml
+# **/classes/LightningForgotPasswordControllerTest.cls
+# **/classes/LightningForgotPasswordControllerTest.cls-meta.xml
+# **/classes/LightningLoginFormController.cls
+# **/classes/LightningLoginFormController.cls-meta.xml
+# **/classes/LightningLoginFormControllerTest.cls
+# **/classes/LightningLoginFormControllerTest.cls-meta.xml
+# **/classes/LightningSelfRegisterController.cls
+# **/classes/LightningSelfRegisterController.cls-meta.xml
+# **/classes/LightningSelfRegisterControllerTest.cls
+# **/classes/LightningSelfRegisterControllerTest.cls-meta.xml
 **/classes/MyProfilePageController.cls
 **/classes/MyProfilePageController.cls-meta.xml
 **/classes/MyProfilePageControllerTest.cls

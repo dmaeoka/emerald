@@ -1,10 +1,10 @@
 @echo OFF
 
 rem Set parameters
-set ORG_ALIAS=ebikes
+set ORG_ALIAS=emerald
 
 @echo:
-echo Installing E-Bikes scratch org (%ORG_ALIAS%)
+echo Installing Emerald scratch org (%ORG_ALIAS%)
 @echo:
 
 rem Install script
@@ -23,7 +23,7 @@ call :checkForError
 @echo:
 
 echo Assigning permission sets...
-cmd.exe /c sfdx force:user:permset:assign -n ebikes
+cmd.exe /c sfdx force:user:permset:assign -n emerald
 call :checkForError
 @echo:
 cd %CD%/..
@@ -38,7 +38,7 @@ timeout /T 30 /NOBREAK
 @echo:
 
 echo Publishing XP Cloud site...
-cmd.exe /c sfdx force:community:publish -n E-Bikes
+cmd.exe /c sfdx force:community:publish -n Emerald
 call :checkForError
 @echo:
 

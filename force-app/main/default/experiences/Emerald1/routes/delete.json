@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "68344759-c1c9-478f-87e2-e892a939d23b",
+  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+  "configurationTags" : [ ],
+  "id" : "4053a930-da29-4ae5-a240-8cded4df0cf9",
+  "label" : "Delete",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-delete",
+  "type" : "route",
+  "urlPrefix" : "delete"
+}

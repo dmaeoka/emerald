@@ -1,0 +1,37 @@
+{
+  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "68344759-c1c9-478f-87e2-e892a939d23b",
+  "label" : "Delete",
+  "regions" : [ {
+    "id" : "6c8a641f-8cb2-4a28-a355-24cabff8aa91",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "9d428605-7e25-49da-b1a2-fd4495443098",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e3b45240-0063-4938-b0bb-33eb417dccbf",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Delete"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "51252877-6bb5-469f-9ac9-27544d9dabec",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a7878dd2-dbf4-4156-8d5c-76d9d00a1ac0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "rQ1EHpBLNygCTB6QlgQl1WOtruWdOE",
+  "type" : "view",
+  "viewType" : "custom-delete"
+}

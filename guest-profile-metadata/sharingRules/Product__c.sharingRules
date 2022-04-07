@@ -5,7 +5,7 @@
         <accessLevel>Read</accessLevel>
         <label>Product guest visibility</label>
         <sharedTo>
-            <guestUser>E_Bikes</guestUser>
+            <guestUser>Emerald</guestUser>
         </sharedTo>
         <criteriaItems>
             <field>Name</field>

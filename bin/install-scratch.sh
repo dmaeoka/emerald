@@ -3,10 +3,10 @@ SCRIPT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 cd $SCRIPT_PATH/..
 
 # Set parameters
-ORG_ALIAS="ebikes"
+ORG_ALIAS="emerald"
 
 echo ""
-echo "Installing E-Bikes scratch org ($ORG_ALIAS)"
+echo "Installing Emerald scratch org ($ORG_ALIAS)"
 echo ""
 
 # Install script
@@ -23,7 +23,7 @@ sfdx force:source:push && \
 echo "" && \
 
 echo "Assigning permission sets..." && \
-sfdx force:user:permset:assign -n ebikes && \
+sfdx force:user:permset:assign -n emerald && \
 echo "" && \
 
 echo "Importing sample data..." && \
@@ -35,7 +35,7 @@ sleep 30 && \
 echo "" && \
 
 echo "Publishing XP Cloud site..." && \
-sfdx force:community:publish -n E-Bikes && \
+sfdx force:community:publish -n Emerald && \
 echo "" && \
 
 echo "Deploying guest profile for XP Cloud site..." && \

@@ -1,0 +1,84 @@
+public with sharing class LWCRest {
+
+	// HEALTHY ALIVE CHECK - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/health/alive
+
+	// Tenants Verify Request - POST
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenants/verify
+
+	// Tenants Get Tenancies - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenants/123456/tenancies
+
+	// TENANTS TENANCY DETAILS - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234
+
+	// Tenants Tenancy Account Charges - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/accountCharges?year=2021
+
+	// Tenants Tenancy Transactions - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/transactions?year=2021
+
+	// Tenants Tenancy Statements - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/statements?year=2021
+
+	// Tenants Tenancy Direct Debits - GET
+	// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/directDebits
+
+
+	@AuraEnabled
+	public static string healthAlive(){
+		HttpRequest httpRequest = new HttpRequest();
+		httpRequest.setEndpoint('https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/health/alive');
+		httpRequest.setHeader('client_id', '1a3rfe496jfkms49402srr93');
+		httpRequest.setHeader('client_secret', '7o9der492wklsmnxcvrt48f1');
+		httpRequest.setMethod('GET');
+		String strResponse = null;
+
+		try {
+			Http http = new Http();
+			HttpResponse httpResponse = http.send(httpRequest);
+			if (httpResponse.getStatusCode() == 200 ) {
+				strResponse = httpResponse.getBody();
+			} else {
+				throw new CalloutException(httpResponse.getBody());
+			}
+		} catch (Exception ex) {
+			throw ex;
+		}
+
+		if(!String.isBlank(strResponse)) {
+			return strResponse;
+		} else {
+			return null;
+		}
+	}
+
+	@AuraEnabled
+	public static string getTenancies() {
+		HttpRequest httpRequest = new HttpRequest();
+		httpRequest.setEndpoint('https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenants/123456/tenancies');
+		httpRequest.setHeader('client_id', '1a3rfe496jfkms49402srr93');
+		httpRequest.setHeader('client_secret', '7o9der492wklsmnxcvrt48f1');
+		httpRequest.setMethod('GET');
+		String strResponse = null;
+
+		try {
+			Http http = new Http();
+			HttpResponse httpResponse = http.send(httpRequest);
+			if (httpResponse.getStatusCode() == 200 ) {
+				strResponse = httpResponse.getBody();
+			} else {
+				throw new CalloutException(httpResponse.getBody());
+			}
+		} catch (Exception ex) {
+			throw ex;
+		}
+
+		if(!String.isBlank(strResponse)) {
+			return strResponse;
+		} else {
+			return null;
+		}
+	}
+
+}

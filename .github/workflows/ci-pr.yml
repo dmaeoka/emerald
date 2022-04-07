@@ -101,7 +101,7 @@ jobs:
 
             # Assign permissionset
             - name: 'Assign permissionset to default user'
-              run: sfdx force:user:permset:assign -n ebikes
+              run: sfdx force:user:permset:assign -n emerald
 
             # Import sample data
             - name: 'Import sample data'
@@ -115,7 +115,7 @@ jobs:
 
             # Publish XP Cloud site
             - name: 'Publish XP Cloud site'
-              run: sfdx force:community:publish -n E-Bikes
+              run: sfdx force:community:publish -n Emerald
 
             # Deploy guest profile for XP Cloud site
             - name: 'Deploy guest profile for XP Cloud site'

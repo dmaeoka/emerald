@@ -1,0 +1,5 @@
+<aura:component
+	implements="forceCommunity:themeLayout"
+	access="global">
+	<h1 class="delete-h1">Now you can delete this page</h1>
+</aura:component>
