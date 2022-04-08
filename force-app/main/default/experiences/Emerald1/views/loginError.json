@@ -17,6 +17,13 @@
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:testServerSide",
+      "id" : "3105be31-e042-4ed8-abb3-96faf1ee4622",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
     } ],
     "id" : "a2c98131-6d57-49e2-a68f-321cfceaa31e",
     "regionName" : "content",

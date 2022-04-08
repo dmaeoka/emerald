@@ -5,13 +5,6 @@
   "label" : "Login",
   "regions" : [ {
     "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "salesforceIdentity:communityLogo2",
-      "id" : "5d7ef429-3287-4af7-a18d-d856e93ed387",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
       "componentAttributes" : {
         "forgotPasswordLabel" : "Forgot your password?",
         "forgotPasswordUrl" : "/ForgotPassword",
@@ -34,15 +27,6 @@
       },
       "componentName" : "salesforceIdentity:socialLogin2",
       "id" : "baaa7380-6e97-4856-9106-6d072efd7712",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "employeeLoginLinkLabel" : "Are you an employee? Login here"
-      },
-      "componentName" : "salesforceIdentity:employeeLoginLink2",
-      "id" : "f46495ef-21cf-481e-b86a-974a929fb75e",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"

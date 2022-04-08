@@ -2,6 +2,7 @@
 import { LightningElement, api, track } from 'lwc';
 import healthAlive from '@salesforce/apex/LWCRest.healthAlive';
 import getTenancies from '@salesforce/apex/LWCRest.getTenancies';
+import getName from '@salesforce/apex/LWCRest.getName';
 
 export default class Tenancy extends LightningElement {
 	@api pageTitle;

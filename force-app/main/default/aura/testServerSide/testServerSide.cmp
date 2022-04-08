@@ -1,0 +1,7 @@
+<aura:component
+	controller="SimpleServerSideController"
+	implements="forceCommunity:availableForAllPageTypes">
+
+	<aura:attribute name="firstName" type="String" default="world"/>
+	<lightning:button label="Call server" onclick="{!c.echo}"/>
+</aura:component>

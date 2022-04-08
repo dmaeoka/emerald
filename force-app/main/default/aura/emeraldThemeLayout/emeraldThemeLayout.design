@@ -1,0 +1,4 @@
+<design:component label="Emerald County Theme Layout">
+    <design:attribute name="leftColWidth" label="Left column width" />
+    <design:attribute name="showSearch" label="Show Search Box" />
+</design:component>

@@ -1,7 +1,7 @@
+
 global class LightningSelfRegisterController {
 
 	public LightningSelfRegisterController() {
-
 	}
 
 	@TestVisible
@@ -18,7 +18,7 @@ global class LightningSelfRegisterController {
 	@TestVisible
 	private static void validatePassword(User u, String password, String confirmPassword) {
 		if(!Test.isRunningTest()) {
-		Site.validatePassword(u, password, confirmPassword);
+			Site.validatePassword(u, password, confirmPassword);
 		}
 		return;
 	}
@@ -39,7 +39,7 @@ global class LightningSelfRegisterController {
 
 			User u = new User();
 			u.Username = email;
-			u.put('Email',email);
+			u.put('Email', email);
 
 			u.FirstName = firstname;
 			u.LastName = lastname;
@@ -54,6 +54,8 @@ global class LightningSelfRegisterController {
 			String nickname = ((firstname != null && firstname.length() > 0) ? firstname.substring(0,1) : '' ) + lastname.substring(0,1);
 			nickname += String.valueOf(Crypto.getRandomInteger()).substring(1,7);
 			u.put('CommunityNickname', nickname);
+			//TODO: ADD AUTOMATICALLY, CHANGE IT TO REST
+			u.put('tenantId__c', '123456');
 
 			if (extraFields != null) {
 				List<Object> extraFieldsList = (List<Object>) JSON.deserializeUntyped(extraFields);
@@ -68,9 +70,8 @@ global class LightningSelfRegisterController {
 				if (!isValidPassword(password, confirmPassword)) {
 					return Label.site.passwords_dont_match;
 				}
-			validatePassword(u, password, confirmPassword);
-			}
-			else {
+				validatePassword(u, password, confirmPassword);
+			} else {
 				password = null;
 			}
 
@@ -80,27 +81,34 @@ global class LightningSelfRegisterController {
 			if (Test.isRunningTest()) {
 				userId = 'fakeUserId';
 			}
+
 			if (userId != null) {
+				ApexPages.PageReference confirmRef = null;
+
 				if (password != null && password.length() > 1) {
-					ApexPages.PageReference lgn = Site.login(email, password, startUrl);
-					if(!Test.isRunningTest()) {
-					aura.redirect(lgn);
-					}
-				}
-				else {
-					ApexPages.PageReference confirmRef = new PageReference(regConfirmUrl);
-					if(!Test.isRunningTest()) {
-					aura.redirect(confirmRef);
+					confirmRef = Site.login(email, password, startUrl);
+				} else {
+					confirmRef = new PageReference(regConfirmUrl);
 				}
 
+				if(!Test.isRunningTest()) {
+					aura.redirect(confirmRef);
 				}
+				return userId;
 			}
+
 			return null;
 		}
 		catch (Exception ex) {
 			Database.rollback(sp);
 			return ex.getMessage();
 		}
+	}
+
+	//Use @AuraEnabled to enable client- and server-side access to the method
+	@AuraEnabled
+	public static String serverEcho(String firstName) {
+		return ('Hello from the server, ' + firstName);
 	}
 
 	@AuraEnabled
@@ -116,7 +124,7 @@ global class LightningSelfRegisterController {
 				fieldDetail.put('label', f.getLabel());
 				fieldDetail.put('required', f.getRequired());
 				fieldDetail.put('type', f.getType());
-				fieldDetail.put('value', '');   // client will populate
+				fieldDetail.put('value', ''); // client will populate
 				extraFields.add(fieldDetail);
 			}}}
 		return extraFields;

@@ -1,0 +1,23 @@
+<template>
+	<div class="slds-grid slds-gutters">
+		<div class="slds-col">
+			<lightning-input type="text" label="First name" placeholder="type here..." required></lightning-input>
+		</div>
+	</div>
+	<div class="slds-col">
+		<div class="slds-col">
+			<lightning-input type="text" label="Last name" placeholder="type here..." required></lightning-input>
+		</div>
+	</div>
+	<div class="slds-grid slds-gutters">
+		<div class="slds-col">
+			<lightning-input type="email" label="Email" placeholder="type here..." required></lightning-input>
+		</div>
+	</div>
+	<div class="slds-grid slds-gutters">
+		<div class="slds-col">
+			<div>{label}</div>
+			<lightning-button variant="brand" label="Sign up" title="Sign up" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+		</div>
+	</div>
+</template>
