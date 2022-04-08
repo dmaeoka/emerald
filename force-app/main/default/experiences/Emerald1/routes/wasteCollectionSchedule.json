@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d5530b08-8c27-4274-995e-5850238285c3",
+  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+  "configurationTags" : [ ],
+  "id" : "290e23ab-bed3-489f-a3e9-d40199104239",
+  "label" : "Waste collection schedule",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-waste-collection-schedule",
+  "type" : "route",
+  "urlPrefix" : "waste-collection-schedule"
+}

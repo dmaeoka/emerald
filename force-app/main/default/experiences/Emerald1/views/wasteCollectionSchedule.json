@@ -1,38 +1,44 @@
 {
   "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
   "componentName" : "siteforce:sldsTwoCol48Layout",
-  "id" : "08b8b3ba-a99c-4e87-88a9-e3178b81eb9f",
-  "label" : "Home",
+  "id" : "d5530b08-8c27-4274-995e-5850238285c3",
+  "label" : "Waste collection schedule",
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Home Dashboard</h1>"
+        "richTextValue" : "<h1 style=\"text-align: center;\">Waste collection schedule</h1>"
       },
       "componentName" : "forceCommunity:richTextInline",
-      "id" : "c56f97fb-1b58-4d2d-a19a-b4f8b19979bf",
+      "id" : "936cd584-f5ef-47f3-bed5-ff47cf9f8a14",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "174fd8f6-046c-4436-adff-f5d56aad729a",
+    "id" : "9145b906-ff8d-45f9-903d-d22decf25aa9",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "pageTitle" : "Your Tenancies"
+        "buttonRedirectPageAPIName" : "Home",
+        "menuLabel" : "Tenancy Dashboard",
+        "menuName" : "Service_Menu"
       },
-      "componentName" : "c:tenancy",
-      "id" : "a597b520-fd37-451a-a6f4-85c8e333e52e",
+      "componentName" : "c:navigationMenu",
+      "id" : "5eefd365-8c1d-4d96-93b8-48896006fab0",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "3de90bfd-a82e-4ea4-b5e3-1fe466c2685b",
+    "id" : "4d929e9a-c22c-444e-8d6f-63aa4b70cc12",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "513a38d7-037e-4af7-b2fc-8cf3f42cb0de",
     "regionName" : "content",
     "type" : "region"
   }, {
-    "id" : "5675183e-90a4-4319-9a68-ec255416a666",
+    "id" : "90a19551-164e-4669-9d69-81453a98f314",
     "regionName" : "footer",
     "type" : "region"
   }, {
@@ -40,32 +46,18 @@
       "componentAttributes" : {
         "customHeadTags" : "",
         "description" : "",
-        "title" : "Home"
+        "title" : "Waste collection schedule"
       },
       "componentName" : "forceCommunity:seoAssistant",
-      "id" : "79f5f40c-b935-4f89-8cab-3d9733d6e846",
+      "id" : "d6a3a696-f222-4db7-b436-c79769d398ce",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "f909a255-f36d-46a7-b813-677c6a651e13",
+    "id" : "2c873b22-2a3d-4236-a914-9e8f8e3fda62",
     "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "menuName" : "Service_Menu"
-      },
-      "componentName" : "c:navigationMenu",
-      "id" : "4e5c347d-179b-4ca3-9089-43affec99f04",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "caf8089c-db4b-4c85-acfa-1a52599ce421",
-    "regionName" : "sidebar",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",
   "type" : "view",
-  "viewType" : "home"
+  "viewType" : "custom-waste-collection-schedule"
 }

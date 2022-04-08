@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "66092ec4-1439-4617-97b8-5c255cb5cdef",
+  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+  "configurationTags" : [ ],
+  "id" : "0938cf6b-ebe7-4d82-bbd6-ac6588775df0",
+  "label" : "Tenancy Dashboard",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-tenancy-dashboard",
+  "type" : "route",
+  "urlPrefix" : "tenancy-dashboard"
+}

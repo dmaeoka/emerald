@@ -19,7 +19,7 @@
         "emailLabel" : "Email",
         "extraFieldsFieldSet" : "Registration",
         "firstnameLabel" : "First Name",
-        "includePasswordField" : false,
+        "includePasswordField" : true,
         "lastnameLabel" : "Last Name",
         "passwordLabel" : "Create Password",
         "regConfirmUrl" : "./CheckPasswordResetEmail",

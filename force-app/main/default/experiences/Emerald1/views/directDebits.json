@@ -1,38 +1,44 @@
 {
   "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
   "componentName" : "siteforce:sldsTwoCol48Layout",
-  "id" : "08b8b3ba-a99c-4e87-88a9-e3178b81eb9f",
-  "label" : "Home",
+  "id" : "1141f953-f6b9-481f-8c59-dc016ed2c4f7",
+  "label" : "Direct Debits",
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Home Dashboard</h1>"
+        "richTextValue" : "<h1 style=\"text-align: center;\">Direct Debits</h1>"
       },
       "componentName" : "forceCommunity:richTextInline",
-      "id" : "c56f97fb-1b58-4d2d-a19a-b4f8b19979bf",
+      "id" : "800b3e71-e7e8-4b2a-9c09-6e78f72b2014",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "174fd8f6-046c-4436-adff-f5d56aad729a",
+    "id" : "3b80d33f-0650-40e1-8824-da7da9f8a6ad",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "pageTitle" : "Your Tenancies"
+        "buttonRedirectPageAPIName" : "Home",
+        "menuLabel" : "Tenancy Dashboard",
+        "menuName" : "Service_Menu"
       },
-      "componentName" : "c:tenancy",
-      "id" : "a597b520-fd37-451a-a6f4-85c8e333e52e",
+      "componentName" : "c:navigationMenu",
+      "id" : "a401c77a-82bb-4c9a-98aa-186565be6351",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "3de90bfd-a82e-4ea4-b5e3-1fe466c2685b",
+    "id" : "7c4d0702-2c54-43a9-b4c0-bff957ab310e",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "216a1b67-3ae5-4e33-a58b-242a19febffa",
     "regionName" : "content",
     "type" : "region"
   }, {
-    "id" : "5675183e-90a4-4319-9a68-ec255416a666",
+    "id" : "bdf404b0-7b44-40f4-80d3-a3586901abfa",
     "regionName" : "footer",
     "type" : "region"
   }, {
@@ -40,32 +46,18 @@
       "componentAttributes" : {
         "customHeadTags" : "",
         "description" : "",
-        "title" : "Home"
+        "title" : "Direct Debits"
       },
       "componentName" : "forceCommunity:seoAssistant",
-      "id" : "79f5f40c-b935-4f89-8cab-3d9733d6e846",
+      "id" : "b993a739-6ab6-4b51-a9d4-14f31b880863",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "f909a255-f36d-46a7-b813-677c6a651e13",
+    "id" : "ec340685-1f01-4ed5-86a0-3a026da3704f",
     "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "menuName" : "Service_Menu"
-      },
-      "componentName" : "c:navigationMenu",
-      "id" : "4e5c347d-179b-4ca3-9089-43affec99f04",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "caf8089c-db4b-4c85-acfa-1a52599ce421",
-    "regionName" : "sidebar",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",
   "type" : "view",
-  "viewType" : "home"
+  "viewType" : "custom-direct-debits"
 }

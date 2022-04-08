@@ -1,0 +1,17 @@
+<template>
+	<nav class="slds-nav-vertical" aria-label="Sub page">
+		<div class="slds-nav-vertical__section">
+			<h2 id="entity-header" class="slds-nav-vertical__title">{menuLabel}</h2>
+			<ul aria-describedby="entity-header">
+				<template
+					for:each={menuItems}
+					for:item="item">
+					<c-navigation-menu-item
+						key={item.id}
+						item={item}
+					></c-navigation-menu-item>
+				</template>
+			</ul>
+		</div>
+	</nav>
+</template>

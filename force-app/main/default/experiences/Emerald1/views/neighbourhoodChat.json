@@ -1,38 +1,44 @@
 {
   "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
   "componentName" : "siteforce:sldsTwoCol48Layout",
-  "id" : "08b8b3ba-a99c-4e87-88a9-e3178b81eb9f",
-  "label" : "Home",
+  "id" : "5020128c-4d11-48e1-a9f4-05137ad3f312",
+  "label" : "Neighbourhood chat",
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Home Dashboard</h1>"
+        "richTextValue" : "<h1 style=\"text-align: center;\">Neighbourhood chat</h1>"
       },
       "componentName" : "forceCommunity:richTextInline",
-      "id" : "c56f97fb-1b58-4d2d-a19a-b4f8b19979bf",
+      "id" : "45a67e60-6c1e-40b6-ad37-7fd479604f2b",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "174fd8f6-046c-4436-adff-f5d56aad729a",
+    "id" : "b0b0b9a6-2364-47e8-9924-dc032f951c3e",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "pageTitle" : "Your Tenancies"
+        "buttonRedirectPageAPIName" : "Home",
+        "menuLabel" : "Tenancy Dashboard",
+        "menuName" : "Service_Menu"
       },
-      "componentName" : "c:tenancy",
-      "id" : "a597b520-fd37-451a-a6f4-85c8e333e52e",
+      "componentName" : "c:navigationMenu",
+      "id" : "387852bb-560e-4781-917a-43d1759387fa",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "3de90bfd-a82e-4ea4-b5e3-1fe466c2685b",
+    "id" : "6377bf28-8a6f-4c57-88f8-3f52d62a6837",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "56df0162-663a-46a2-b050-f076dc3a19be",
     "regionName" : "content",
     "type" : "region"
   }, {
-    "id" : "5675183e-90a4-4319-9a68-ec255416a666",
+    "id" : "dce93316-9c49-4756-9fd2-44d4af841271",
     "regionName" : "footer",
     "type" : "region"
   }, {
@@ -40,32 +46,18 @@
       "componentAttributes" : {
         "customHeadTags" : "",
         "description" : "",
-        "title" : "Home"
+        "title" : "Neighbourhood chat"
       },
       "componentName" : "forceCommunity:seoAssistant",
-      "id" : "79f5f40c-b935-4f89-8cab-3d9733d6e846",
+      "id" : "7af18be6-73d0-4687-be9d-3f09995ae558",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "f909a255-f36d-46a7-b813-677c6a651e13",
+    "id" : "f104b78e-0748-4bf1-b5ff-f7f0653d451b",
     "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "menuName" : "Service_Menu"
-      },
-      "componentName" : "c:navigationMenu",
-      "id" : "4e5c347d-179b-4ca3-9089-43affec99f04",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "caf8089c-db4b-4c85-acfa-1a52599ce421",
-    "regionName" : "sidebar",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",
   "type" : "view",
-  "viewType" : "home"
+  "viewType" : "custom-neighbourhood-chat"
 }

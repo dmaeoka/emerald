@@ -54,7 +54,7 @@ global class LightningSelfRegisterController {
 			String nickname = ((firstname != null && firstname.length() > 0) ? firstname.substring(0,1) : '' ) + lastname.substring(0,1);
 			nickname += String.valueOf(Crypto.getRandomInteger()).substring(1,7);
 			u.put('CommunityNickname', nickname);
-			//TODO: ADD AUTOMATICALLY, CHANGE IT TO REST
+			// TODO: ADD AUTOMATICALLY, CHANGE IT TO REST
 			u.put('tenantId__c', '123456');
 
 			if (extraFields != null) {

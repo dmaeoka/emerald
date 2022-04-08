@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "5020128c-4d11-48e1-a9f4-05137ad3f312",
+  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+  "configurationTags" : [ ],
+  "id" : "fc9a0a4b-1eb6-40e2-9631-3f5bea14b56a",
+  "label" : "Neighbourhood chat",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-neighbourhood-chat",
+  "type" : "route",
+  "urlPrefix" : "neighbourhood-chat"
+}

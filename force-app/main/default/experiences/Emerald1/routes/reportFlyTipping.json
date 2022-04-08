@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7dfa633c-6fcc-4bb5-a5f9-cd2b36bec5ad",
+  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+  "configurationTags" : [ ],
+  "id" : "b4e0f0fe-b67e-4dbd-a5b5-1a0119f3591d",
+  "label" : "Report fly tipping",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-report-fly-tipping",
+  "type" : "route",
+  "urlPrefix" : "report-fly-tipping"
+}
