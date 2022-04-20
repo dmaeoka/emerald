@@ -1,5 +1,10 @@
 <template>
-	<li class={item.active}>
-		<a href={href} onclick={handleClick} class="slds-nav-vertical__action"> {item.label}</a>
-	</li>
+	<lightning-vertical-navigation-item
+		shaded
+		key={item.index}
+		label={item.label}
+		name={item.index}
+		onclick={handleClick}
+		href={href}
+	></lightning-vertical-navigation-item>
 </template>

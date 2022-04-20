@@ -4,16 +4,6 @@
   "id" : "b5c64d09-9285-43d9-ac74-991f5dbe2264",
   "label" : "Statements",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Statements</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "0e0c4a45-84ec-412c-8025-859ddd42eba1",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "29c3a8aa-759e-4652-ba10-16c14b61685b",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,23 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Statements</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "0e0c4a45-84ec-412c-8025-859ddd42eba1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:transactions",
+      "id" : "551f4aee-3bbb-4b72-9941-07b69e781aa0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "17a341bb-4bbc-40b8-90f0-a40e380defa2",
     "regionName" : "content",
     "type" : "region"

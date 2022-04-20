@@ -1,0 +1,18 @@
+<template>
+	<lightning-card>
+		<h2 slot="title">Your latest transactions are shown here</h2>
+		<lightning-datatable
+			data={data}
+			columns={columns}
+			key-field="id"
+			show-row-number-column
+			hide-checkbox-column
+			onrowselection={getSelectedName}
+		></lightning-datatable>
+		<lightning-button
+			label="Back"
+			onclick={handleBack}
+			slot="footer"
+		></lightning-button>
+	</lightning-card>
+</template>

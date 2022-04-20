@@ -1,26 +1,26 @@
 // HEALTHY ALIVE CHECK - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/health/alive
+// /health/alive
 
 // Tenants Verify Request - POST
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenants/verify
+// /tenants/verify
 
 // Tenants Get Tenancies - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenants/123456/tenancies
+// /tenants/123456/tenancies
 
 // TENANTS TENANCY DETAILS - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234
+// /tenancies/1234
 
 // Tenants Tenancy Account Charges - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/accountCharges?year=2021
+// /tenancies/1234/accountCharges?year=2021
 
 // Tenants Tenancy Transactions - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/transactions?year=2021
+// /tenancies/1234/transactions?year=2021
 
 // Tenants Tenancy Statements - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/statements?year=2021
+// /tenancies/1234/statements?year=2021
 
 // Tenants Tenancy Direct Debits - GET
-// https://anypoint.mulesoft.com/mocking/api/v1/links/602580e8-bcfa-48ea-8a74-dc3c62b524af/tenancies/1234/directDebits
+// /tenancies/1234/directDebits
 
 public with sharing class LWCRest {
 
@@ -54,12 +54,12 @@ public with sharing class LWCRest {
 		return null;
 	}
 
-	@AuraEnabled
+	@AuraEnabled(Cacheable=true)
 	public static string healthAlive(){
 		return new LWCRest().anypointRequest('/health/alive', 'GET');
 	}
 
-	@AuraEnabled
+	@AuraEnabled(Cacheable=true)
 	public static string getTenancies() {
 		String tenantId = [
 			SELECT tenantId__c
@@ -70,7 +70,19 @@ public with sharing class LWCRest {
 		return new LWCRest().anypointRequest('/tenants/' + tenantId + '/tenancies', 'GET');
 	}
 
-	@AuraEnabled
+	@AuraEnabled(Cacheable=true)
+	public static string getTenanciesDetails() {
+		// String tenantId = [
+		// 	SELECT tenantId__c
+		// 	FROM User
+		// 	WHERE Id = :UserInfo.getUserId()
+		// ][0].tenantId__c;
+
+		// /tenancies/1234
+		return new LWCRest().anypointRequest('/tenancies/1234', 'GET');
+	}
+
+	@AuraEnabled(Cacheable=true)
 	public static string getName() {
 		String tenantId = [
 			SELECT tenantId__c

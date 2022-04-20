@@ -4,16 +4,6 @@
   "id" : "66092ec4-1439-4617-97b8-5c255cb5cdef",
   "label" : "Tenancy Dashboard",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Tenancy Dashboard</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "f64ffbd8-a8e4-4a80-a598-2fa522d2dbe8",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "24e020b0-0829-4975-95a2-26b8deed40da",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,25 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Tenancy Dashboard</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f64ffbd8-a8e4-4a80-a598-2fa522d2dbe8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "pageTitle" : "Your Tenancies"
+      },
+      "componentName" : "c:tenancy",
+      "id" : "fb13a45b-ca66-4a92-8e17-112ef456fb2d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "d21d47b6-5052-4282-ae76-909aa7cbf4cf",
     "regionName" : "content",
     "type" : "region"
@@ -46,7 +55,7 @@
       "componentAttributes" : {
         "customHeadTags" : "",
         "description" : "",
-        "title" : "Tenancy Dashboard"
+        "title" : "My Tenancy"
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "5f1daa2b-d0f4-4faf-a0f7-f523b9722659",

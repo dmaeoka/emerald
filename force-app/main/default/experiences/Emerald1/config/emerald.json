@@ -1,6 +1,6 @@
 {
   "forgotPasswordRouteId" : "4d11ba48-ae98-4f79-be18-773b4a58bc43",
-  "isAvailableToGuests" : false,
+  "isAvailableToGuests" : true,
   "isFilteredComponentsView" : true,
   "isProgressiveRenderingEnabled" : false,
   "loginAppPageId" : "99145371-a7c0-4ca6-bf2f-708461f8d821",
@@ -12,6 +12,12 @@
     "isActive" : true,
     "trustedSiteName" : "Mulesoft",
     "trustedSiteUrl" : "https://anypoint.mulesoft.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "1c3b600d-0fd4-4cc1-8198-ff75a2861c0d",
+    "isActive" : true,
+    "trustedSiteName" : "Heroku",
+    "trustedSiteUrl" : "https://data-faker.herokuapp.com/collection",
     "type" : "trustedSitesForScripts"
   } ],
   "type" : "site"

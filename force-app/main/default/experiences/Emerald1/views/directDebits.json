@@ -4,16 +4,6 @@
   "id" : "1141f953-f6b9-481f-8c59-dc016ed2c4f7",
   "label" : "Direct Debits",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Direct Debits</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "800b3e71-e7e8-4b2a-9c09-6e78f72b2014",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "3b80d33f-0650-40e1-8824-da7da9f8a6ad",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,23 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Direct Debits</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "800b3e71-e7e8-4b2a-9c09-6e78f72b2014",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:transactions",
+      "id" : "6f7eead5-9963-4052-b27b-a962e12e4e79",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "216a1b67-3ae5-4e33-a58b-242a19febffa",
     "regionName" : "content",
     "type" : "region"

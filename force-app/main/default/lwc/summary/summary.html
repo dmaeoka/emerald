@@ -1,0 +1,120 @@
+<template>
+	<div>
+		<lightning-card>
+			<span slot="title">You have an outstanding balance on this tenancy {urlId}</span>
+			<lightning-button
+				label="Pay"
+				slot="actions"
+			></lightning-button>
+
+			<div class="slds-p-around_medium lgc-bg">
+				<lightning-tile>
+					<dl class="slds-dl_horizontal">
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Tenants">Tenants:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate" title={details.tenantNames}>{details.tenantNames}</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Start date">Start date:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate" title={details.startDate}>{details.startDate}</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Property details">Property details:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate" title={details.propertyDetails.propertyType}>{details.propertyDetails.propertyType} ({details.propertyDetails.bedrooms} bedrooms)</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Address">Address:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate" title={details.address}>{details.address}</p>
+						</dd>
+					</dl>
+				</lightning-tile>
+			</div>
+
+			<div class="slds-p-around_medium lgc-bg">
+				<lightning-tile label="Account Summary">
+					<dl class="slds-dl_horizontal">
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Rent (gross)">Rent (gross):</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate">
+								<lightning-formatted-number value={details.accountDetails.grossRent} format-style="currency" currency-code="GBP"></lightning-formatted-number>
+							</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Rebate">Rebate:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate">
+								<lightning-formatted-number value={details.accountDetails.rebate} format-style="currency" currency-code="GBP"></lightning-formatted-number>
+							</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Net rent">Net rent:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate">
+								<lightning-formatted-number value={details.accountDetails.netRent} format-style="currency" currency-code="GBP"></lightning-formatted-number>
+							</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate">Last balance on {details.accountDetails.lastBalanceDate}:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate">
+								<lightning-formatted-number value={details.accountDetails.lastBalance} format-style="currency" currency-code="GBP"></lightning-formatted-number>
+							</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Current balance">Current balance:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate">
+								<lightning-formatted-number value={details.accountDetails.currentBalance} format-style="currency" currency-code="GBP"></lightning-formatted-number>
+							</p>
+						</dd>
+
+						<dt class="slds-dl_horizontal__label">
+							<p class="slds-truncate" title="Payment method">Payment method:</p>
+						</dt>
+						<dd class="slds-dl_horizontal__detail slds-tile__meta">
+							<p class="slds-truncate" title="No payment method">{details.accountDetails.paymentMethod}</p>
+						</dd>
+					</dl>
+				</lightning-tile>
+			</div>
+		</lightning-card>
+	</div>
+
+	<div class="slds-m-top_medium">
+		<lightning-card>
+			<span slot="title">Charges</span>
+			<lightning-datatable
+				key-field="id"
+				data={chargesData}
+				columns={chargesColumns}
+				hide-checkbox-column
+			></lightning-datatable>
+			<lightning-button
+				label="Back"
+				onclick={handleBack}
+				slot="footer"
+			></lightning-button>
+		</lightning-card>
+	</div>
+</template>

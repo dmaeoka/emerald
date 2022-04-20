@@ -1,36 +1,47 @@
 {
   "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
-  "componentName" : "siteforce:sldsOneColLayout",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
   "id" : "af3a4208-3892-4c64-a7da-4d89dbf73bcb",
   "label" : "Record Detail",
   "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:groupHeadline",
+      "id" : "de354a54-66ef-4331-8e10-4acc8d70e945",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "e0a19fb9-98c1-4e2b-87b0-37c2dc08c542",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "recordId" : "{!recordId}"
+        "context" : "RECORD",
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
       },
-      "componentName" : "forceCommunity:recordHeadline",
-      "id" : "5f180dc6-bdf9-4ddd-a2ca-06bfbdcf7c12",
+      "componentName" : "forceCommunity:feedPublisher",
+      "id" : "eaafd46a-9784-40ce-911f-43377b149533",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "detailsTabLabel" : "Details",
-        "discussionsTabLabel" : "Feed",
-        "recordId" : "{!recordId}",
-        "relatedTabLabel" : "Related",
-        "tab1Type" : "details",
-        "tab2Type" : "related",
-        "tab3Type" : "none",
-        "tab4Type" : "none",
-        "timelineTabLabel" : "Activity"
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Record"
       },
-      "componentName" : "forceCommunity:recordHomeTabs",
-      "id" : "3378cf42-1e17-450d-8b09-b265c2bc1173",
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "2709c42e-774c-4e1c-ab7c-90f88ebd8fdf",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -56,6 +67,20 @@
     } ],
     "id" : "cdee0440-2c40-4bcf-9d39-9cd08682c0f2",
     "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:groupRelatedList",
+      "id" : "fd59b529-9bba-42dd-a5c6-68dd77af172d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e1c3404c-b368-4080-b2fe-18b08e0f6dfc",
+    "regionName" : "sidebar",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",

@@ -3,7 +3,7 @@
 	<video if:true={isVideo} autoplay muted loop>
 		<source src={resUrl} type="video/mp4" />
 	</video>
-	<div if:true={isOverlay}></div>
+	<div class="overlay" if:true={isOverlay}></div>
 	<c-hero-details
 		class={heroDetailsPositionClass}
 		title={title}

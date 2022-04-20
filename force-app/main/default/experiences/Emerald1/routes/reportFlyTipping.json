@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "b4e0f0fe-b67e-4dbd-a5b5-1a0119f3591d",
   "label" : "Report fly tipping",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-report-fly-tipping",
   "type" : "route",
   "urlPrefix" : "report-fly-tipping"

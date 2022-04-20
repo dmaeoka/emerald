@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "c85d6ee8-4ddd-41ab-8c4b-bda7a64fef7e",
   "label" : "Pay for parking",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-pay-for-parking",
   "type" : "route",
   "urlPrefix" : "pay-for-parking"

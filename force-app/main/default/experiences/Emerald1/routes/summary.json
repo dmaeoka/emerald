@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "7f7407e6-e3fb-45d9-b737-29e81cb29093",
   "label" : "Summary",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-summary",
   "type" : "route",
   "urlPrefix" : "tenancy-dashboard/summary"

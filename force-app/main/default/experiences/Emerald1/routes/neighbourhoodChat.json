@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "fc9a0a4b-1eb6-40e2-9631-3f5bea14b56a",
   "label" : "Neighbourhood chat",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-neighbourhood-chat",
   "type" : "route",
   "urlPrefix" : "neighbourhood-chat"

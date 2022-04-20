@@ -4,40 +4,11 @@
     <containerType>Network</containerType>
     <label>Service Menu</label>
     <navigationMenuItem>
-        <label>Tenancy Dashboard</label>
+        <label>My Tenancies</label>
         <position>1</position>
         <publiclyAvailable>false</publiclyAvailable>
-        <subMenu>
-            <navigationMenuItem>
-                <label>Summary</label>
-                <position>0</position>
-                <publiclyAvailable>false</publiclyAvailable>
-                <target>/tenancy-dashboard/summary</target>
-                <type>InternalLink</type>
-            </navigationMenuItem>
-            <navigationMenuItem>
-                <label>Transactions</label>
-                <position>1</position>
-                <publiclyAvailable>false</publiclyAvailable>
-                <target>/tenancy-dashboard/transaction</target>
-                <type>InternalLink</type>
-            </navigationMenuItem>
-            <navigationMenuItem>
-                <label>Statements</label>
-                <position>2</position>
-                <publiclyAvailable>false</publiclyAvailable>
-                <target>/tenancy-dashboard/statements</target>
-                <type>InternalLink</type>
-            </navigationMenuItem>
-            <navigationMenuItem>
-                <label>Direct Debits</label>
-                <position>3</position>
-                <publiclyAvailable>false</publiclyAvailable>
-                <target>/tenancy-dashboard/direct-debits</target>
-                <type>InternalLink</type>
-            </navigationMenuItem>
-        </subMenu>
-        <type>MenuLabel</type>
+        <target>/tenancy-dashboard</target>
+        <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
         <label>Pay for Parking</label>
@@ -61,10 +32,11 @@
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
+        <defaultListViewId>All_ChatterGroups</defaultListViewId>
         <label>Neighbourhood chat</label>
         <position>5</position>
         <publiclyAvailable>false</publiclyAvailable>
-        <target>/neighbourhood-chat</target>
-        <type>InternalLink</type>
+        <target>CollaborationGroup</target>
+        <type>SalesforceObject</type>
     </navigationMenuItem>
 </NavigationMenu>

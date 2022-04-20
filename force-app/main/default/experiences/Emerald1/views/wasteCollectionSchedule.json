@@ -4,16 +4,6 @@
   "id" : "d5530b08-8c27-4274-995e-5850238285c3",
   "label" : "Waste collection schedule",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Waste collection schedule</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "936cd584-f5ef-47f3-bed5-ff47cf9f8a14",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "9145b906-ff8d-45f9-903d-d22decf25aa9",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,16 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Waste collection schedule</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "936cd584-f5ef-47f3-bed5-ff47cf9f8a14",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "513a38d7-037e-4af7-b2fc-8cf3f42cb0de",
     "regionName" : "content",
     "type" : "region"

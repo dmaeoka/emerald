@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "50d5dd52-0ae2-4236-a0a7-103d8901b2f7",
   "label" : "Direct Debits",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-direct-debits",
   "type" : "route",
   "urlPrefix" : "tenancy-dashboard/direct-debits"

@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "2b0b24a7-9841-4963-b97c-66202341ec87",
   "label" : "Transaction",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-transaction",
   "type" : "route",
   "urlPrefix" : "tenancy-dashboard/transaction"

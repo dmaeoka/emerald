@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "22599c7f-95f8-40a7-afd9-1d593d2bbcd5",
   "label" : "Statements",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-statements",
   "type" : "route",
   "urlPrefix" : "tenancy-dashboard/statements"

@@ -79,18 +79,32 @@
         "regions" : [ {
           "components" : [ {
             "componentAttributes" : {
-              "buttonBackgroundColor" : "",
-              "buttonBackgroundHoverColor" : "",
-              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
-              "buttonBorderRadius" : 4,
+              "accountManagementLabel" : "Account Management",
+              "buttonBackgroundColor" : "inherit",
+              "buttonBackgroundHoverColor" : "inherit",
+              "buttonBorderColor" : "transparent",
+              "buttonBorderRadius" : 5,
               "buttonText" : "Log in",
-              "buttonTextColor" : "",
-              "buttonTextHoverColor" : "",
-              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
-              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+              "buttonTextColor" : "#fff",
+              "buttonTextHoverColor" : "#0099de",
+              "communityBuilderLabel" : "Experience Builder",
+              "communitySetupLabel" : "Salesforce Setup",
+              "contactSupportLabel" : "Contact Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Home",
+              "logoutLabel" : "Logout",
+              "menuStyle" : "iconOnly",
+              "messagesLabel" : "Messages",
+              "myAccountLabel" : "My Account",
+              "showAccountManagement" : true,
+              "showContactSupport" : true,
+              "showMessages" : true,
+              "showUserSettings" : true,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "My Profile"
             },
-            "componentName" : "forceCommunity:customizableUserProfileMenu",
-            "id" : "ede9e4dd-10f3-4137-ab01-75c9a17ee6ae",
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "feddb6f7-0034-4493-b06a-f3b4bbb0b48f",
             "renditionMap" : { },
             "type" : "component"
           } ],
@@ -129,12 +143,12 @@
         }, {
           "components" : [ {
             "componentAttributes" : {
-              "navAlignment" : "left",
-              "navItemThreshold" : 7,
-              "navigationMenuEditorRefresh" : ""
+              "NavigationMenuEditorRefresh" : "Default_Navigation",
+              "hideAppLauncher" : true,
+              "menuAlignment" : "left"
             },
-            "componentName" : "forceCommunity:themeNav",
-            "id" : "5acf9203-1ad5-4e53-951a-87947ff5a378",
+            "componentName" : "forceCommunity:multiLevelNavigation",
+            "id" : "5e04469f-b47d-4cde-b02f-d05441336052",
             "renditionMap" : { },
             "type" : "component"
           } ],
@@ -236,6 +250,40 @@
       "regionName" : "themeHero",
       "type" : "region"
     }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "askCommunityLabel" : "Ask a Question",
+          "buttonBgColor" : "",
+          "buttonBgHoverColor" : "",
+          "buttonBorderColor" : "",
+          "buttonRadius" : 0,
+          "buttonTextColor" : "",
+          "buttonTextHoverColor" : "",
+          "buttonTwoBgColor" : "",
+          "buttonTwoBgHoverColor" : "",
+          "buttonTwoBorderColor" : "",
+          "buttonTwoRadius" : 0,
+          "buttonTwoTextColor" : "",
+          "buttonTwoTextHoverColor" : "",
+          "confirmationMessage" : "Got it!",
+          "contactSupportLabel" : "Contact Support",
+          "followUpPromptLabel" : "Can we close your question?",
+          "headerLabel" : "Don't see what you're looking for?",
+          "isAskFollowPromptEnabled" : true,
+          "isIncludeArticlesEnabled" : false,
+          "isIncludeDiscussionsEnabled" : true,
+          "isInitialSatisfactionPromptEnabled" : true,
+          "isPublisherDeflectionEnabled" : true,
+          "maxSuggestions" : 5,
+          "satisfactionPromptLabel" : "Did we help to answer your question?",
+          "showDetails" : false,
+          "showTopics" : true
+        },
+        "componentName" : "siteforce:napiliFooter",
+        "id" : "458e49a0-01e5-4d11-aed1-94b7bdd72036",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
       "id" : "ca8a1b62-dc52-45a1-ade8-f10e66d16ab1",
       "regionName" : "themeFooter",
       "type" : "region"

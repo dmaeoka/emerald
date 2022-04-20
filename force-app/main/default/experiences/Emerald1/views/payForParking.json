@@ -4,16 +4,6 @@
   "id" : "a5a755b0-2a7b-45de-aee6-c9a77b4bb67e",
   "label" : "Pay for parking",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Pay for parking</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "9dcea5d4-b7ae-47f3-9f5c-294c53836c10",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "6cc0d6cf-a2b7-43e3-87de-33b5fb65d616",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,16 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Pay for parking</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9dcea5d4-b7ae-47f3-9f5c-294c53836c10",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "daac75a0-5392-42c2-a1cc-43347d8babcd",
     "regionName" : "content",
     "type" : "region"

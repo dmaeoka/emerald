@@ -4,18 +4,18 @@
     <containerType>Network</containerType>
     <label>Default Navigation</label>
     <navigationMenuItem>
-        <label>Product Explorer</label>
+        <label>My Tenancy</label>
         <position>1</position>
-        <publiclyAvailable>false</publiclyAvailable>
-        <target>/product-explorer</target>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/tenancy-dashboard</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
-        <defaultListViewId>All_Product_Families</defaultListViewId>
-        <label>Product Families</label>
+        <defaultListViewId>All_ChatterGroups</defaultListViewId>
+        <label>Neighbourhood chat</label>
         <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
-        <target>Product_Family__c</target>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>CollaborationGroup</target>
         <type>SalesforceObject</type>
     </navigationMenuItem>
     <navigationMenuItem>
@@ -32,5 +32,19 @@
         <publiclyAvailable>false</publiclyAvailable>
         <target>Case</target>
         <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Pay for parking</label>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/pay-for-parking</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Waste collection schedule</label>
+        <position>6</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/waste-collection-schedule</target>
+        <type>InternalLink</type>
     </navigationMenuItem>
 </NavigationMenu>

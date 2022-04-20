@@ -4,16 +4,6 @@
   "id" : "7dfa633c-6fcc-4bb5-a5f9-cd2b36bec5ad",
   "label" : "Report fly tipping",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Report fly tipping</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "3fe1933d-3dc5-42da-b80c-4c525e402c78",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "eb858855-acba-41dd-b87d-b2fafa351e37",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,23 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Report fly tipping</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3fe1933d-3dc5-42da-b80c-4c525e402c78",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:createCase",
+      "id" : "08c36b4e-1501-4aec-9cb4-1f1895b891bd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "24a3dc06-c813-43d7-b980-0343b5e4964d",
     "regionName" : "content",
     "type" : "region"

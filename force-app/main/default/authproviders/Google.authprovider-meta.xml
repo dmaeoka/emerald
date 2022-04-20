@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <consumerKey>663207218763-1hnqn3nojt0cthffef3v9ta6ap84ql5r.apps.googleusercontent.com</consumerKey>
+    <consumerSecret>ItQF5e11M/sy/ve2FcZEDzRTff38c6lhBtUBoSRfrj0fiZYEGJ7inQ==</consumerSecret>
+    <defaultScopes>openid email profile</defaultScopes>
+    <executionUser>test-bqjwrhimbf9f@example.com</executionUser>
+    <friendlyName>Google</friendlyName>
+    <iconUrl>https://login.salesforce.com/icons/google-grey.png</iconUrl>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>Google</providerType>
+    <registrationHandler>AutocreatedRegHandler1650444487429</registrationHandler>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+</AuthProvider>

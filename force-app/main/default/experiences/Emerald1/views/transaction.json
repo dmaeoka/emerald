@@ -4,16 +4,6 @@
   "id" : "5b4baa9c-11ca-41bc-8eab-93980f8d8490",
   "label" : "Transaction",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\">Transaction</h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "14e213c0-4e3e-4cbe-8689-e458e3d17657",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "8b8fc1b7-1d19-429b-b4b5-b011c92bdb76",
     "regionName" : "header",
     "type" : "region"
@@ -34,6 +24,23 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Transaction</h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "14e213c0-4e3e-4cbe-8689-e458e3d17657",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:transactions",
+      "id" : "155653d8-40f2-4672-864d-ec0a5030a104",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "db922e09-a86c-497c-8212-6f379444094b",
     "regionName" : "content",
     "type" : "region"

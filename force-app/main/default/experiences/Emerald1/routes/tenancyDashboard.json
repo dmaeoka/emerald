@@ -4,7 +4,7 @@
   "configurationTags" : [ ],
   "id" : "0938cf6b-ebe7-4d82-bbd6-ac6588775df0",
   "label" : "Tenancy Dashboard",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-tenancy-dashboard",
   "type" : "route",
   "urlPrefix" : "tenancy-dashboard"
