@@ -51,10 +51,9 @@ const columns = [
 		},
 		cellAttributes: {
 			class: 'slds-text-title_caps'
-		},
+		}
 	}
-]
-
+];
 
 export default class Tenancy extends NavigationMixin(LightningElement) {
 	@api pageTitle;
@@ -62,22 +61,22 @@ export default class Tenancy extends NavigationMixin(LightningElement) {
 
 	columns = columns;
 	status = '';
+	tenancies = [];
 
 	async connectedCallback() {
-
 		healthAlive()
-			.then(result => JSON.parse(result))
-			.then(result => {
+			.then((result) => JSON.parse(result))
+			.then((result) => {
 				this.status = result.status;
 			})
-			.catch(error => console.log(error));
+			.catch((error) => console.log(error));
 
 		getTenancies()
-			.then(result => JSON.parse(result))
-			.then(result => {
+			.then((result) => JSON.parse(result))
+			.then((result) => {
 				this.tenancies = result;
 			})
-			.catch(error => console.log(error));
+			.catch((error) => console.log(error));
 	}
 
 	handleRowAction(e) {
@@ -118,6 +117,6 @@ export default class Tenancy extends NavigationMixin(LightningElement) {
 	}
 
 	handlePay() {
-		console.log('Handle Pay')
+		console.log('Handle Pay');
 	}
 }

@@ -1,0 +1,118 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "ea909816-ceb4-44e8-85ec-6c67ef17c4aa",
+	"label": "Statements Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "cad6fa16-7953-4311-92f4-cc50a768bbb8",
+							"columns": [
+								{
+									"UUID": "f359d569-cbaf-454f-b5eb-6288019e3a25",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "f56cf08a-e3fe-4de1-89b0-a8a53c1a634b",
+									"columnKey": "55d58",
+									"columnName": "Column 2",
+									"columnWidth": "9",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "cad6fa16-7953-4311-92f4-cc50a768bbb8",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"buttonRedirectPageAPIName": "Home",
+										"menuLabel": "Tenancy Dashboard",
+										"menuName": "Service_Menu"
+									},
+									"componentName": "c:navigationMenu",
+									"id": "5b57a375-6ca5-4cec-8a6a-d194ce93283d",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "f359d569-cbaf-454f-b5eb-6288019e3a25",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h1>Statements</h1>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "dbfef5e0-2359-49b0-bc37-fd0463e8b211",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {},
+									"componentName": "c:statements",
+									"id": "ba8bd66a-ddd2-40bd-9d2a-faf700655d3c",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "f56cf08a-e3fe-4de1-89b0-a8a53c1a634b",
+							"regionLabel": "Column 2",
+							"regionName": "55d58",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "7ee0a417-2c17-491d-b9d6-db8c42cac256",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "Statements"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "958ed5af-6a09-4a1e-9619-7d82d37ced04",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "4d97535e-789d-40a9-bdd1-2e134437a6ce",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "custom-statements"
+}

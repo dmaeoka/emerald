@@ -1,0 +1,118 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "03c47e06-4186-46d7-ad52-246e1d2d448b",
+	"label": "Transaction Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "e7557e0a-bc3f-406e-a098-d3edbb35c95b",
+							"columns": [
+								{
+									"UUID": "16c8fcfb-3ae8-4b39-ae1b-b97643df51ea",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "acd265af-a898-4381-a37f-759b6ecb74ac",
+									"columnKey": "1276d",
+									"columnName": "Column 2",
+									"columnWidth": "9",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "e7557e0a-bc3f-406e-a098-d3edbb35c95b",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"buttonRedirectPageAPIName": "Home",
+										"menuLabel": "Tenancy Dashboard",
+										"menuName": "Service_Menu"
+									},
+									"componentName": "c:navigationMenu",
+									"id": "d54d972f-0327-4223-b46f-130b3a13a7af",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "16c8fcfb-3ae8-4b39-ae1b-b97643df51ea",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h1>Transactions</h1>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "049427ce-dc70-44c0-b44e-564348c52184",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {},
+									"componentName": "c:transactions",
+									"id": "c0e8bf90-8d5d-47fa-9123-b8a1f52ff49f",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "acd265af-a898-4381-a37f-759b6ecb74ac",
+							"regionLabel": "Column 2",
+							"regionName": "1276d",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "92ede9ae-77c2-40dc-8768-72390be908e1",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "Transaction"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "ecb0ae54-af0a-4f24-9b2c-4db44c9d97c0",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "666c065f-5250-45ad-b15f-4f75196e0a83",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "custom-transaction"
+}

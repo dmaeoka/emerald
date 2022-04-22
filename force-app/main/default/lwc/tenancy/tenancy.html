@@ -1,7 +1,12 @@
 <template>
 	<lightning-card>
 		<h2 slot="title">
-			<lightning-icon icon-name="standard:event" size="small" alternative-text="Event" title="Event"></lightning-icon>
+			<lightning-icon
+				icon-name="standard:event"
+				size="small"
+				alternative-text="Event"
+				title="Event"
+			></lightning-icon>
 			&nbsp; {pageTitle} ({status})
 		</h2>
 		<lightning-button
@@ -10,6 +15,12 @@
 			slot="actions"
 		></lightning-button>
 		<div class="tenancies-table">
+			<template if:false={tenancies.length}>
+				<lightning-spinner
+					alternative-text="Loading"
+					size="medium"
+				></lightning-spinner>
+			</template>
 			<lightning-datatable
 				key-field="id"
 				data={tenancies}

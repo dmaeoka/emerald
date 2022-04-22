@@ -1,0 +1,118 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "be87beed-65eb-4709-8c49-84c7ea0510dd",
+	"label": "Waste Collection Schedule Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "0cbd46a5-052b-44bc-9bf2-e069ff5d8b1d",
+							"columns": [
+								{
+									"UUID": "6c0c4b89-b575-43f8-a216-1916121dc6a5",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "47f253b5-38ed-407f-b7fa-698c066ee8bb",
+									"columnKey": "705b0",
+									"columnName": "Column 2",
+									"columnWidth": "9",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "0cbd46a5-052b-44bc-9bf2-e069ff5d8b1d",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"buttonRedirectPageAPIName": "Home",
+										"menuLabel": "Tenancy Dashboard",
+										"menuName": "Service_Menu"
+									},
+									"componentName": "c:navigationMenu",
+									"id": "ad56a23f-3c86-4ef3-894a-35b097bb86a6",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "6c0c4b89-b575-43f8-a216-1916121dc6a5",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h1>Find your collection day</h1>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "6e8269f8-4706-4efb-9b90-45e418d2f78a",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {},
+									"componentName": "c:wasteCollection",
+									"id": "4d1ea392-8ab3-4c2b-a09f-4bf31f474ba0",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "47f253b5-38ed-407f-b7fa-698c066ee8bb",
+							"regionLabel": "Column 2",
+							"regionName": "705b0",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "5947adb9-439e-4d4c-95c2-6e97c210290d",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "Waste collection schedule"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "a1747ef4-60bc-4696-89d9-909dad2caf1c",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "e1d03445-e50f-48fd-a924-6c5bf73db5de",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "custom-waste-collection-schedule"
+}

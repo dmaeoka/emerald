@@ -1,0 +1,110 @@
+{
+	"appPageId": "99145371-a7c0-4ca6-bf2f-708461f8d821",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "fc0d0c83-ff6c-43ff-a065-07fe48307371",
+	"label": "Login Error Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "c94fc186-9d24-4f1c-9ff4-c5e42c6f3d18",
+							"columns": [
+								{
+									"UUID": "8281dfb5-4e01-428c-a1fc-6e105ffa0679",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "4",
+									"seedComponents": []
+								},
+								{
+									"UUID": "c7f7ef65-e8b0-482f-8c14-2470633b7b15",
+									"columnKey": "638c3",
+									"columnName": "Column 2",
+									"columnWidth": "4",
+									"seedComponents": []
+								},
+								{
+									"UUID": "77490134-99d0-4afa-bfb3-52ebbae37351",
+									"columnKey": "998d9",
+									"columnName": "Column 3",
+									"columnWidth": "4",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "c94fc186-9d24-4f1c-9ff4-c5e42c6f3d18",
+					"regions": [
+						{
+							"id": "8281dfb5-4e01-428c-a1fc-6e105ffa0679",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h2 style=\"text-align: center;\">Login Error</h2>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "3b2a812a-5440-45cc-b167-77b7922e30a6",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "c7f7ef65-e8b0-482f-8c14-2470633b7b15",
+							"regionLabel": "Column 2",
+							"regionName": "638c3",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"id": "77490134-99d0-4afa-bfb3-52ebbae37351",
+							"regionLabel": "Column 3",
+							"regionName": "998d9",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "5e46ea2c-d720-45c5-a6c0-c238a3d0e717",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": ""
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "e3874ed4-aa5e-4ebf-8e8f-79602f8650e3",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "ce525ba6-693a-43ea-a7a8-a1cc890ca006",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "login-error"
+}

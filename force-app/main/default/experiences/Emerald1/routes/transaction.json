@@ -1,11 +1,11 @@
 {
-  "activeViewId" : "5b4baa9c-11ca-41bc-8eab-93980f8d8490",
-  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
-  "configurationTags" : [ ],
-  "id" : "2b0b24a7-9841-4963-b97c-66202341ec87",
-  "label" : "Transaction",
-  "pageAccess" : "RequiresLogin",
-  "routeType" : "custom-transaction",
-  "type" : "route",
-  "urlPrefix" : "tenancy-dashboard/transaction"
+	"activeViewId": "03c47e06-4186-46d7-ad52-246e1d2d448b",
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"configurationTags": [],
+	"id": "2b0b24a7-9841-4963-b97c-66202341ec87",
+	"label": "Transaction",
+	"pageAccess": "RequiresLogin",
+	"routeType": "custom-transaction",
+	"type": "route",
+	"urlPrefix": "tenancy-dashboard/transaction"
 }

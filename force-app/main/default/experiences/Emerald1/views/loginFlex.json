@@ -1,0 +1,139 @@
+{
+	"appPageId": "99145371-a7c0-4ca6-bf2f-708461f8d821",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "c033ebf2-e7d4-43d4-958d-282cdc77afed",
+	"label": "Login Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "f5ff8639-9775-4323-8bf1-2534d96144ed",
+							"columns": [
+								{
+									"UUID": "0ee5f742-ca5f-447e-b864-5f76f14b9dd3",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "a6653d49-bf2d-4f96-bf41-b472a82ba087",
+									"columnKey": "7c975",
+									"columnName": "Column 2",
+									"columnWidth": "6",
+									"seedComponents": []
+								},
+								{
+									"UUID": "1469d02b-ee8f-45b5-b743-2f2acce2ff1b",
+									"columnKey": "2bd50",
+									"columnName": "Column 3",
+									"columnWidth": "3",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "f5ff8639-9775-4323-8bf1-2534d96144ed",
+					"regions": [
+						{
+							"id": "0ee5f742-ca5f-447e-b864-5f76f14b9dd3",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h1><b style=\"font-size: 36px;\">Login</b></h1><p><span style=\"font-size: 18px;\">You must log out of your My Emerald account AND close your browser when you have finished, so that no-one else can access your personal information. Find out more</span></p><p>&nbsp;</p>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "c6b2e111-33da-457d-a6c5-7fbab37d07f0",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {
+										"forgotPasswordLabel": "Forgot your password?",
+										"forgotPasswordUrl": "/login/ForgotPassword",
+										"loginButtonLabel": "Log in",
+										"passwordLabel": "Password",
+										"selfRegisterLabel": "Not a member?",
+										"selfRegisterUrl": "/login/SelfRegister",
+										"startUrl": "",
+										"usernameLabel": "Username"
+									},
+									"componentName": "salesforceIdentity:loginForm2",
+									"id": "18bf7d84-b22f-45b2-b8c2-2d438a85756f",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {
+										"headerText": "Social Login",
+										"showHeader": true,
+										"useCommunityDomainSso": true
+									},
+									"componentName": "salesforceIdentity:socialLogin2",
+									"id": "53f5556a-7044-4708-8a0e-08c6706c8389",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "a6653d49-bf2d-4f96-bf41-b472a82ba087",
+							"regionLabel": "Column 2",
+							"regionName": "7c975",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"id": "1469d02b-ee8f-45b5-b743-2f2acce2ff1b",
+							"regionLabel": "Column 3",
+							"regionName": "2bd50",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "ddd8b065-c7ff-4540-972d-3c7c7d1716d8",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": ""
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "92fc92fd-4249-47bb-9ee5-b908c2ce4047",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "f8f17bff-6c91-455a-8d5c-e901f5775a35",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "login-home"
+}

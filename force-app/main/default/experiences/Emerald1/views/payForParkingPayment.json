@@ -1,0 +1,118 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "134510d4-ad07-4f2a-b7c3-9c5d7bd4f840",
+	"label": "Pay for parking Payment",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "6001312a-615c-4304-aa50-352ade42698c",
+							"columns": [
+								{
+									"UUID": "81512dca-15a4-42e4-9045-e17c13a94fcd",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "8ef0a4d6-eef9-4459-b292-addcb6a4d43e",
+									"columnKey": "0d621",
+									"columnName": "Column 2",
+									"columnWidth": "9",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "6001312a-615c-4304-aa50-352ade42698c",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"buttonRedirectPageAPIName": "Home",
+										"menuLabel": "Tenancy Dashboard",
+										"menuName": "Service_Menu"
+									},
+									"componentName": "c:navigationMenu",
+									"id": "da3cb9b6-c18e-44d3-a392-6bcd37a8f53e",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "81512dca-15a4-42e4-9045-e17c13a94fcd",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h1><b>Pay for parking - Payment</b></h1><p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lectus non enim pharetra tempor et eu enim. Curabitur sit amet velit sed odio vestibulum mollis sed non mauris</span></p>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "ec7cbb98-7dbe-46da-81ad-d5f0c19f8860",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {},
+									"componentName": "c:PaymentForm",
+									"id": "5e5727f9-2d77-4a1b-b19b-c2070600380f",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "8ef0a4d6-eef9-4459-b292-addcb6a4d43e",
+							"regionLabel": "Column 2",
+							"regionName": "0d621",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "07d75678-4853-4e83-b688-f437ccd6aada",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "Pay for parking Payment"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "ad60b558-d6d9-4800-a8e6-03e6f8f81e5b",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "b48f61db-b8f5-4bc4-87a4-c849fba297be",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "custom-pay-for-parking-payment"
+}

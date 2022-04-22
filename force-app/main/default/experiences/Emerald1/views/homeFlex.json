@@ -1,0 +1,195 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "6325c246-c8f0-41bd-a7c4-3ce6a28d220e",
+	"label": "Home Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "d7620ecd-f9eb-4721-98fa-35c488bacb90",
+							"columns": [
+								{
+									"UUID": "354dca19-e7e2-4bc0-85d8-dcbe5ec725a3",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "12",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "d7620ecd-f9eb-4721-98fa-35c488bacb90",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"config": {
+											"collectionLayoutDefinition": {
+												"attributes": {
+													"collectionTitle": "Latest News",
+													"collectionTitleHeadingTag": "h2",
+													"columns": 3,
+													"rows": "1",
+													"showCollectionTitle": true,
+													"showViewMoreButton": false,
+													"spacing": "medium",
+													"viewMoreButtonBackgroundColor": "",
+													"viewMoreButtonBackgroundColorHover": "",
+													"viewMoreButtonBorderColor": "",
+													"viewMoreButtonBorderColorHover": "",
+													"viewMoreButtonLabel": "View More Items",
+													"viewMoreButtonPlacement": "center",
+													"viewMoreButtonRadius": 4,
+													"viewMoreButtonTextColor": "",
+													"viewMoreButtonTextColorHover": ""
+												},
+												"componentName": "forceCommunity:dynamicCollectionGrid"
+											},
+											"dataProviderDefinition": {
+												"attributes": {
+													"dataProviderInfo": {
+														"apiName": "Published_News"
+													},
+													"dataProviderType": "NamedCollection"
+												},
+												"componentName": "forceCommunity:managedContentCollectionDataProvider"
+											},
+											"itemLayoutDefinition": {
+												"attributes": {
+													"additionalLinks": "{}",
+													"backgroundPosition": "center center",
+													"backgroundSize": "cover",
+													"borderColor": "",
+													"componentBorderStyles": "",
+													"componentHoverEffect": "imageZoomIn",
+													"componentPadding": "none",
+													"contentBackgroundColor": "#ffffff",
+													"contentOffset": "0",
+													"contentOffsetBackgroundColor": "#ffffff",
+													"contentOffsetPadding": "medium",
+													"contentPosition": "center",
+													"contentWidth": 100,
+													"dateFormat": "none",
+													"datetime": "",
+													"datetimeFontSize": "regular",
+													"datetimeTextColor": "",
+													"datetimeTextDecoration": "",
+													"defaultLinksOverrides": "{}",
+													"displayDayOfWeek": false,
+													"eyebrowFontSize": "regular",
+													"eyebrowHighlightColor": "",
+													"eyebrowText": "",
+													"eyebrowTextColor": "",
+													"eyebrowTextDecoration": "",
+													"flagAlignment": "top left",
+													"flagBackgroundColor": "#ff0000",
+													"flagBorderColor": "#ffffff",
+													"flagBorderStyles": "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+													"flagConstraints": "media",
+													"flagRotation": 0,
+													"flagSpacing": "medium",
+													"flagText": "",
+													"flagTextColor": "#ffffff",
+													"flagTextDecoration": "",
+													"imageAlignment": "top",
+													"imageAltText": "{!CurrentItem.excerpt}",
+													"imageBorderColor": "#ffffff",
+													"imageBorderStyles": "",
+													"imageUrl": "{!CurrentItem.bannerImage.url}",
+													"mediaAspectRatio": "16:9",
+													"mediaHeight": 450,
+													"metadata1HighlightColor": "",
+													"metadata1Text": "",
+													"metadata2HighlightColor": "",
+													"metadata2Text": "",
+													"metadataFontSize": "regular",
+													"metadataTextColor": "",
+													"metadataTextDecoration": "",
+													"showDateTime": false,
+													"showExcerpt": true,
+													"showEyebrow": false,
+													"showEyebrowHighlight": false,
+													"showFeaturedMedia": true,
+													"showFlag": false,
+													"showMetadata1": false,
+													"showMetadata1Highlight": false,
+													"showMetadata2": false,
+													"showMetadata2Highlight": false,
+													"showTitle": true,
+													"showTitleHighlight": true,
+													"subTitle": "{!CurrentItem.excerpt}",
+													"subTitleFontSize": "regular",
+													"subTitleTextColor": "",
+													"textAlignment": "left",
+													"timeFormat": "none",
+													"timeZoneDisplay": "short",
+													"timeZoneOptions": "none",
+													"title": "{!CurrentItem.title}",
+													"titleFontSize": "medium",
+													"titleHeadingTag": "p",
+													"titleHighlightColor": "",
+													"titleTextColor": "",
+													"titleTextDecoration": "{\"bold\":true,\"textTransform\":\"capitalize\"}",
+													"useAspectRatio": true,
+													"videoUrl": ""
+												},
+												"componentName": "forceCommunity:flexTileLayout"
+											},
+											"schemaVersion": "V2.0"
+										}
+									},
+									"componentName": "forceCommunity:dynamicCollection",
+									"id": "8fffc5a1-ce6f-4b4a-82fc-e9882141de30",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "354dca19-e7e2-4bc0-85d8-dcbe5ec725a3",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "24252724-ab61-4391-9248-4b26bf981a47",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "Home"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "dae7b310-1f57-40f1-b0bc-f7c516ec10fb",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "af9794f0-d0e6-4804-a9c0-0e50ef2c26a8",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "nbIiTsK57QunYrfld6rZbHfHhtUkT1",
+	"type": "view",
+	"viewType": "home"
+}

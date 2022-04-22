@@ -1,4 +1,4 @@
-<design:component label="Test Self Register">
+<design:component label="Self Register - Emerald">
 	<design:attribute name="startUrl"/>
 	<design:attribute name="regConfirmUrl" default="./CheckPasswordResetEmail"/>
 	<design:attribute name="firstnameLabel" default="First Name"/>

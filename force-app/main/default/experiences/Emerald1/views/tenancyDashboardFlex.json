@@ -1,0 +1,120 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "3e9383d2-77d6-4c08-8c74-aa92f9202eba",
+	"label": "Tenancy Dashboard Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "461cf80b-c960-442d-a82f-5dc9b85c22fd",
+							"columns": [
+								{
+									"UUID": "c65c6223-90d7-4c08-9f35-a259efc6e95d",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "742785eb-857d-45bd-9385-2816de071edd",
+									"columnKey": "44787",
+									"columnName": "Column 2",
+									"columnWidth": "9",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "461cf80b-c960-442d-a82f-5dc9b85c22fd",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"buttonRedirectPageAPIName": "Home",
+										"menuLabel": "Tenancy Dashboard",
+										"menuName": "Service_Menu"
+									},
+									"componentName": "c:navigationMenu",
+									"id": "1a90979c-cf12-4798-9ddb-ff733a731462",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "c65c6223-90d7-4c08-9f35-a259efc6e95d",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"richTextValue": "<h1>Tenancy Dashboard</h1><p><span style=\"font-size: 18px; color: rgb(0, 0, 0);\">You can find here your sapien, quis gravida nisl nisi sit amet elit. In eros tellus.</span></p>"
+									},
+									"componentName": "forceCommunity:richTextInline",
+									"id": "640d3d4f-b0c0-46c3-9adc-ba9e4ac47f7a",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								},
+								{
+									"componentAttributes": {
+										"pageTitle": "Your Tenancies"
+									},
+									"componentName": "c:tenancy",
+									"id": "0b642a06-3bfe-4cb3-9a1a-2275a69b3907",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "742785eb-857d-45bd-9385-2816de071edd",
+							"regionLabel": "Column 2",
+							"regionName": "44787",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "181463d8-de6d-48c6-af75-0218b11abdfc",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "My Tenancy"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "5b9491a4-d93c-4320-95a4-d1e541c944c9",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "6f69250a-3cb3-46df-838e-eaab050b9e8e",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "custom-tenancy-dashboard"
+}

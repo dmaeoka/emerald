@@ -1,0 +1,108 @@
+{
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"componentName": "siteforce:dynamicLayout",
+	"id": "c9c11a3e-abac-4436-aba3-5395577e7e56",
+	"label": "Report Fly-tipping Flex",
+	"regions": [
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"background": "background: rgba(0,0,0,0)",
+						"backgroundOverlay": "rgba(0,0,0,0.5)",
+						"contentAreaWidth": 100,
+						"sectionConfig": {
+							"UUID": "8a5d0430-218d-458a-a75a-20c932ff88d1",
+							"columns": [
+								{
+									"UUID": "e501db86-464a-4fb4-a5c7-5dc6640bd638",
+									"columnKey": "1",
+									"columnName": "Column 1",
+									"columnWidth": "3",
+									"seedComponents": []
+								},
+								{
+									"UUID": "c39d66c8-c672-45ba-bcb4-dce861609461",
+									"columnKey": "0e788",
+									"columnName": "Column 2",
+									"columnWidth": "9",
+									"seedComponents": []
+								}
+							]
+						},
+						"sectionHeight": 300
+					},
+					"componentName": "forceCommunity:section",
+					"id": "8a5d0430-218d-458a-a75a-20c932ff88d1",
+					"regions": [
+						{
+							"components": [
+								{
+									"componentAttributes": {
+										"buttonRedirectPageAPIName": "Home",
+										"menuLabel": "Tenancy Dashboard",
+										"menuName": "Service_Menu"
+									},
+									"componentName": "c:navigationMenu",
+									"id": "c8ec926d-d5e2-4e18-86f2-09423491277c",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "e501db86-464a-4fb4-a5c7-5dc6640bd638",
+							"regionLabel": "Column 1",
+							"regionName": "1",
+							"renditionMap": {},
+							"type": "region"
+						},
+						{
+							"components": [
+								{
+									"componentAttributes": {},
+									"componentName": "c:createCase",
+									"id": "2a5d75f2-9e83-4577-b4cd-16c74494fbfe",
+									"renderPriority": "NEUTRAL",
+									"renditionMap": {},
+									"type": "component"
+								}
+							],
+							"id": "c39d66c8-c672-45ba-bcb4-dce861609461",
+							"regionLabel": "Column 2",
+							"regionName": "0e788",
+							"renditionMap": {},
+							"type": "region"
+						}
+					],
+					"renderPriority": "NEUTRAL",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "fa786463-a199-4ac4-85f2-c697654c4ba4",
+			"regionName": "content",
+			"type": "region"
+		},
+		{
+			"components": [
+				{
+					"componentAttributes": {
+						"customHeadTags": "",
+						"description": "",
+						"title": "Report fly tipping"
+					},
+					"componentName": "forceCommunity:seoAssistant",
+					"id": "58ade062-fe6b-40c0-a003-9af1e5b6e29d",
+					"renditionMap": {},
+					"type": "component"
+				}
+			],
+			"id": "bcc9aba4-97cb-4b39-a443-0760e06fb4f8",
+			"regionName": "sfdcHiddenRegion",
+			"type": "region"
+		}
+	],
+	"themeLayoutType": "Inner",
+	"type": "view",
+	"viewType": "custom-report-fly-tipping"
+}

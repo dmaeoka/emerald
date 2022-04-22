@@ -1,11 +1,11 @@
 {
-  "activeViewId" : "a5a755b0-2a7b-45de-aee6-c9a77b4bb67e",
-  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
-  "configurationTags" : [ ],
-  "id" : "c85d6ee8-4ddd-41ab-8c4b-bda7a64fef7e",
-  "label" : "Pay for parking",
-  "pageAccess" : "RequiresLogin",
-  "routeType" : "custom-pay-for-parking",
-  "type" : "route",
-  "urlPrefix" : "pay-for-parking"
+	"activeViewId": "0e8b09f5-99bf-4049-a4a9-e382562d00d5",
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"configurationTags": [],
+	"id": "c85d6ee8-4ddd-41ab-8c4b-bda7a64fef7e",
+	"label": "Pay for parking",
+	"pageAccess": "Public",
+	"routeType": "custom-pay-for-parking",
+	"type": "route",
+	"urlPrefix": "pay-for-parking"
 }

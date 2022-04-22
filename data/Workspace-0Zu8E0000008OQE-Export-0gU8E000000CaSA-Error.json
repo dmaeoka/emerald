@@ -1,0 +1,14 @@
+{
+	"dateTime": "2022-04-22 16:54:22",
+	"jobId": "0gU8E000000CaSA",
+	"details": [
+		{
+			"message": "We couldn't export this content. Verify the status is set to either draft or published, then try again.",
+			"content": "{\"contentKey\":\"MCEGTHSCE2MRCPRHKVY5Y4W4UY4A\",\"urlName\":\"article-1\",\"type\":\"0T18E000000DCKs\",\"status\":\"Archived\"}"
+		},
+		{
+			"message": "We couldn't export this content. Verify the status is set to either draft or published, then try again.",
+			"content": "{\"contentKey\":\"MCFVPIARY3WBGRBIF2GI4V3NNIBQ\",\"urlName\":\"how-to-faq-1\",\"type\":\"0T18E000000DCKs\",\"status\":\"Archived\"}"
+		}
+	]
+}

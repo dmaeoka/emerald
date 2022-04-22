@@ -1,0 +1,11 @@
+{
+	"activeViewId": "134510d4-ad07-4f2a-b7c3-9c5d7bd4f840",
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"configurationTags": [],
+	"id": "65390f07-97f7-4b79-9290-f5fc3a1bdc90",
+	"label": "Pay for parking Payment",
+	"pageAccess": "UseParent",
+	"routeType": "custom-pay-for-parking-payment",
+	"type": "route",
+	"urlPrefix": "pay-for-parking/pay-for-parking-payment"
+}

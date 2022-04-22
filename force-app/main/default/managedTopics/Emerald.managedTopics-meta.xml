@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Emerald.Content:Featured</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Featured</name>
+        <parentName />
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Content:Help</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Help</name>
+        <parentName />
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Content:News</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>News</name>
+        <parentName />
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Content:Tenancy</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Tenancy</name>
+        <parentName />
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Content:Waste</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Waste</name>
+        <parentName />
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Navigational:Help</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Help</name>
+        <parentName />
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Navigational:Tenancy</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Tenancy</name>
+        <parentName />
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Emerald.Navigational:Waste</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Waste</name>
+        <parentName />
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

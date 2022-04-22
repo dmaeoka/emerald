@@ -39,3 +39,6 @@ $RECYCLE.BIN/
 # Codecov
 coverage
 .localdevserver
+force-app/lightning-wizard-master
+force-app/main/bkp
+force-app/main/default/aura/PaymentForm

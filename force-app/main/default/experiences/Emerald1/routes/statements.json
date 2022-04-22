@@ -1,11 +1,11 @@
 {
-  "activeViewId" : "b5c64d09-9285-43d9-ac74-991f5dbe2264",
-  "appPageId" : "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
-  "configurationTags" : [ ],
-  "id" : "22599c7f-95f8-40a7-afd9-1d593d2bbcd5",
-  "label" : "Statements",
-  "pageAccess" : "RequiresLogin",
-  "routeType" : "custom-statements",
-  "type" : "route",
-  "urlPrefix" : "tenancy-dashboard/statements"
+	"activeViewId": "ea909816-ceb4-44e8-85ec-6c67ef17c4aa",
+	"appPageId": "591ae89d-97d7-4f5d-b93f-ce618e5d48f1",
+	"configurationTags": [],
+	"id": "22599c7f-95f8-40a7-afd9-1d593d2bbcd5",
+	"label": "Statements",
+	"pageAccess": "RequiresLogin",
+	"routeType": "custom-statements",
+	"type": "route",
+	"urlPrefix": "tenancy-dashboard/statements"
 }

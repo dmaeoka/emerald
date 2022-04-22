@@ -58,7 +58,7 @@ export default class NavigationMenu extends NavigationMixin(LightningElement) {
 	menuItems = [];
 	publishedState;
 	showHamburgerMenu;
-	selectedItem = "item-0";
+	selectedItem = 'item-0';
 
 	@wire(getNavigationMenuItems, {
 		menuName: '$menuName',
@@ -79,8 +79,11 @@ export default class NavigationMenu extends NavigationMixin(LightningElement) {
 				})
 				.filter((item) => {
 					// Only show "Public" items if guest user
+					console.log(item);
 					return (
-						item.accessRestriction === 'None' || (item.accessRestriction === 'LoginRequired' && !isGuestUser)
+						item.accessRestriction === 'None' ||
+						(item.accessRestriction === 'LoginRequired' &&
+							!isGuestUser)
 					);
 				});
 			this.error = undefined;
@@ -95,7 +98,10 @@ export default class NavigationMenu extends NavigationMixin(LightningElement) {
 
 	@wire(CurrentPageReference)
 	setCurrentPageReference(currentPageReference) {
-		const app = currentPageReference && currentPageReference.state && currentPageReference.state.app;
+		const app =
+			currentPageReference &&
+			currentPageReference.state &&
+			currentPageReference.state.app;
 		if (app === 'commeditor') {
 			this.publishedState = 'Draft';
 		} else {
